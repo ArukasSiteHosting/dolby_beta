@@ -17,6 +17,7 @@ import de.robv.android.xposed.XposedHelpers;
 
 public class LoginFixHook {
     public LoginFixHook(Context context) {
+        /*
         Class<?> neteaseMusicUtilsClass = XposedHelpers.findClassIfExists("com.netease.cloudmusic.utils.NeteaseMusicUtils", context.getClassLoader());
         if (neteaseMusicUtilsClass != null) {
             XposedHelpers.findAndHookMethod(neteaseMusicUtilsClass, "serialdata", String.class, String.class, new XC_MethodHook() {
@@ -39,6 +40,6 @@ public class LoginFixHook {
                     }
                 }
             });
-        }
+        }*/
     }
 }
